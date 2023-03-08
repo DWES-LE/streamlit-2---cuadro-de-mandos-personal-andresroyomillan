@@ -18,4 +18,4 @@ Los campos son id, title, contaminante, nivel, value, fecha, year
 Poniendo asi el id, el nombre de las estaciones, el tipo de contaminantes, su nivel y la fecha.
 
 ## Publica la aplicación.
-Publica la aplicación en Streamlit Cloud, en Heroku o en el servicio que prefieras https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app
+https://andresroyomillan-streamlit-2---cuadro-de-mandos-pers-app-g9otbr.streamlit.app/
