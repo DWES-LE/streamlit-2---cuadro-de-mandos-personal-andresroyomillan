@@ -4,31 +4,18 @@
 > Incluye en tu README la url de donde has publicado tu aplicación. Pon la `url` también en el `About` de tu repositorio.
 
 ## Objetivo
-Diseño de un cuadro de mandos personal para visualización e interacción con un conjunto de datos.
+Mostrar los distintos la calidad en la ciudad de Zaragoza por los distintos contaminantes y años.
 
 ## Los datos
-Elige un conjunto de datos que te interese: educación, deportes, trabajo, música, econocomía, etc. 
+Los datos tratan sobre la calidad de aire de la ciudad de Zaragoza
 
 ## Búsqueda de los datos
-Busca una fuente para tus datos. Puedes usar una API de un portal de datos abiertos, un conjunto ya publicado, recopilar personalmente datos por scraping, etc.
+Los datos los he optenido descargandolos de los Datos Abiertos Zaragoza en "https://www.zaragoza.es/sede/portal/datos-abiertos/servicio/catalogo/131"
 
 ## Documentación de los datos
-Documenta los datos que vas a usar y su origen. De dónde los has sacado, fuentes, etc. Describe los campos, los valores, las unidades, etc.
-
-## Prepara tu aplicación.
-La aplicación se llamará `app.py`. Añade un `requirements.txt` con las dependencias de tu aplicación. Ve actualizándolo a medida que vayas añadiendo librerías.
-
-## Carga y análisis de conjunto de dato con pandas
-Carga el conjunto de datos en un dataframe de pandas y realiza un análisis exploratorio de los datos.
-
-## Visualización de los datos
-Prepara visualizaciones diferentes del dataframe en texto (tablas) o gráficas (histogramas, barras, etc.). Puedes usar matplotlib, seaborn, plotly, etc.
-
-## Diseña la interacción que van a tener tus datos
-Qué inputs y outputs tendrán tus datos. 
-
-## Prepara la aplicación (cuadro de mandos) con Streamlit
-Prepara y prueba la aplicación.
+Son datos con origen Datos Abiertos Zaragoza y se tratan de los niveles de contaminación atmosférica en cada una de las Estaciones Remotas que forman la Red Automática de Control de la Contaminación Atmosférica del Ayuntamiento de Zaragoza.
+Los campos son id, title, contaminante, nivel, value, fecha, year
+Poniendo asi el id, el nombre de las estaciones, el tipo de contaminantes, su nivel y la fecha.
 
 ## Publica la aplicación.
 Publica la aplicación en Streamlit Cloud, en Heroku o en el servicio que prefieras https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app
